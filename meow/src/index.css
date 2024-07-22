@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body {
+    margin: 0;
+    background: #f3cc95;
+    color: #3c2212;
+    font-family: 'Press Start 2P' , sans-serif;
+    font-weight: 300;
+}
+
+recepies {
+    background: #b6ff00;
+    background: url('./img/cat.jpg') no-repeat;
+}
+
+
+.wrapper {
+    width: 1280px;
+    margin: 50px auto;
+}
+
+header .logo {
+    width: 100%;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+
+header .presentation {
+    margin: 50px 0;
+    background: url('./img/cool.gif') no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 500px;
+}
+
+
+header ul.nav li {
+    cursor: pointer;
+}
+
+header ul.nav li:hover {
+    opacity: 0.5;
+
+}
+
+footer {
+    text-align: center;
+}
+
+main .ingridients {
+    width: 50%;
+    height: 700px;
+}
+
+ingridients {
+    display : flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .ingridients img {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px 15px ;
+ }
+
+main .ingridients img:hover {
+     transform: scale(1.05);
+ }
+
+main .point {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #d3774f;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+button {
+    padding: 5px;
+    height: 50px;
+    width: 200px;
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    background-color: #ff6a00;
+    box-sizing: border-box;
+    margin: 5px 10px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.google {
+    margin: 0 10px;
+}
+
+.recipes {
+    padding: 15px;
+    background-color: #ff6a00;
+    margin: 5px;
+}
+img {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+h1 {
+    padding: 5px 10px;
+}
+
+p {
+    padding: 5px 10px;
+}
